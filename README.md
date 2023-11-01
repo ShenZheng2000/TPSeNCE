@@ -1,3 +1,6 @@
+# Updates 
+Paper get accepted by WACV 2024!
+
 # TPSeNCE
 A PyTorch Implementatiion of TPSeNCE, an image rain generation model
 
@@ -36,7 +39,29 @@ git clone https://github.com/ShenZheng2000/TPSeNCE.git
 pip -r requirement.txt
 ```
 
-# Datasets
+# Dataset Explanations
+Suppose we are translating clear images to rainy images, then we should put images under /path_to_your_dataset/ like this.
+
+```
+A: source images (e.g., clear images)
+B: target images (e.g., rainy images)
+S: sem. seg. maps of A
+T: sem. seg. maps of B
+```
+
+# Dataset Download
+
+Download BDD100K from [[here](https://www.vis.xyz/bdd100k/)]
+
+Download INIT from [[here](https://zhiqiangshen.com/projects/INIT/index.html)]
+
+Download Boreas from [[here](https://www.boreas.utias.utoronto.ca/#/)]
+
+
+TODO: provide dataset split files
+
+
+# Dataset Folder Structure
 ```
 /path_to_your_dataset/
     ├── trainA
@@ -49,16 +74,6 @@ pip -r requirement.txt
     ├── testT
 ```
 
-
-# Dataset Explanations
-Suppose we are translating clear images to rainy images, then we should put images under /path_to_your_dataset/ like this.
-
-```
-A: source images (e.g., clear images)
-B: target images (e.g., rainy images)
-S: sem. seg. maps of A
-T: sem. seg. maps of B
-```
 
 ## NOTE1: 
 testS and testT is not used for training or testing. However, make sure to include images in the testS and testT folders to prevent them from being empty, as an empty folder cause error during training and testing. 
@@ -99,6 +114,25 @@ Run in terminal
 ```
 bash test.sh
 ```
+
+# Citation
+
+If you find this work helpful, please cite
+
+```
+@inproceedings{zheng2022semantic,
+  title={TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain},
+  author={Zheng, Shen and Lu, Changjie and Srinivasa G. Narasimhan},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  year={2024}
+}
+```
+
+
+# Acknowledgment
+
+This repository is heavily based upon [[MoNCE](https://github.com/fnzhan/MoNCE)] and [[CUT](https://github.com/taesungp/contrastive-unpaired-translation)]. 
+
 
 <!-- The specific lines of code are as follows.
 ```
