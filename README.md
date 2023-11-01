@@ -128,9 +128,9 @@ bash test.sh
 If you find this work helpful, please cite
 
 ```
-@inproceedings{zheng2022semantic,
+@inproceedings{zheng2024tpsnce,
   title={TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain},
-  author={Zheng, Shen and Lu, Changjie and Srinivasa G. Narasimhan},
+  author={Zheng, Shen and Lu, Changjie and Narasimhan, Srinivasa G},
   booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
   year={2024}
 }
