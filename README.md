@@ -42,18 +42,9 @@ git clone https://github.com/ShenZheng2000/TPSeNCE.git
 
 # Dependencies
 ```
-pip -r requirement.txt
+pip install -r requirements.txt
 ```
 
-# Dataset Explanations
-Suppose we are translating clear images to rainy images, then we should put images under /path_to_your_dataset/ like this.
-
-```
-A: source images (e.g., clear images)
-B: target images (e.g., rainy images)
-S: sem. seg. maps of A
-T: sem. seg. maps of B
-```
 
 # Dataset Download
 
@@ -65,6 +56,17 @@ Download Boreas from [[here](https://www.boreas.utias.utoronto.ca/#/)]
 
 
 TODO: provide dataset split files
+
+
+# Dataset Explanations
+Suppose we are translating clear images to rainy images, then we should put images under /path_to_your_dataset/ like this.
+
+```
+A: source images (e.g., clear images)
+B: target images (e.g., rainy images)
+S: sem. seg. maps of A
+T: sem. seg. maps of B
+```
 
 
 # Dataset Folder Structure
