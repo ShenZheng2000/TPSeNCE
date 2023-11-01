@@ -8,7 +8,7 @@ Rain generation algorithms have the potential to improve the generalization of d
 
 Rain Generation Video [[here](https://www.youtube.com/watch?v=eNS_8fuSLjc)]
 
-Object Detection Video1 [[here](https://www.youtube.com/watch?v=RkGmAAORugc)]
+Object Detection Video [[here](https://www.youtube.com/watch?v=RkGmAAORugc)]
 
 # Visual Results (Images)
 
@@ -81,7 +81,7 @@ bash train.sh
 
 
 # Testing with pretrained model
-Download the checkpoints from [here](https://drive.google.com/file/d/1NPWCHpljJhJcGTadYebyLf0sGbkJm3z4/view?usp=share_link)
+Download the checkpoints from [[here](https://drive.google.com/file/d/1NPWCHpljJhJcGTadYebyLf0sGbkJm3z4/view?usp=share_link)]
 
 Unzip the checkpoints.
 
