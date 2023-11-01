@@ -15,14 +15,20 @@ Object Detection Video [[here](https://www.youtube.com/watch?v=RkGmAAORugc)]
 
 # Visual Results (Images)
 
+
+## Rain Generation (Clear to Rainy)
 <p align="center">
   <img width="100%" src="figures/Rain_Generation.png">
 </p>
 
+
+## Deraining (Rainy to Clear)
 <p align="center">
   <img width="100%" src="figures/Derain.png">
 </p>
 
+
+## Object Detection in Rain
 <p align="center">
   <img width="100%" src="figures/Detect.png">
 </p>
