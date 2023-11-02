@@ -1,4 +1,5 @@
 # Updates 
+Arxvi link is available at [[here](https://arxiv.org/abs/2311.00660)]
 Paper get accepted by WACV 2024!
 
 # TPSeNCE
