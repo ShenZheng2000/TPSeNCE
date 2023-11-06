@@ -22,7 +22,7 @@ train_model()
 }
 
 # training BDD
-train_model 'bdd100k_1_20' 'bdd100k_1_20_tri_sem' 640 256 1.0 'mPA' 'bdd100k_rainy.out'
+train_model 'bdd100k_1_20' 'bdd100k_1_20' 640 256 1.0 'mPA' 'bdd100k_rainy.out'
 
 # training INIT
 # train_model 'INIT_rainy' 'INIT_rainy_full' 572 256 1.0 'INIT_rainy.out'

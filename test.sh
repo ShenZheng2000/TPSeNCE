@@ -20,8 +20,8 @@ run_test() {
 
 # now we can call the function with the specific directory name and full name as the parameters
 
-run_test "bdd100k_1_20" "bdd100k_1_20_tri_sem" 640 4025
-# run_test "bdd100k_7_20_snowy" "bdd100k_7_20_snowy_tri_sem" 640 4025
-# run_test "bdd100k_7_19_night" "bdd100k_7_19_night_tri_sem" 640 4025
+run_test "bdd100k_1_20" "bdd100k_1_20" 640 4025
+# run_test "bdd100k_7_20_snowy" "bdd100k_7_20_snowy" 640 4025
+# run_test "bdd100k_7_19_night" "bdd100k_7_19_night" 640 4025
 
 # run_test "boreas_snowy" "boreas_snowy" 430 2089
