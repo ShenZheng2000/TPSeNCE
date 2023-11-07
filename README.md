@@ -1,10 +1,13 @@
 # Updates 
-Arxvi link is available at [[here](https://arxiv.org/abs/2311.00660)]
+Arxiv link is available at [[here](https://arxiv.org/abs/2311.00660)]
 
-Paper get accepted by WACV 2024!
+Paper get accepted by WACV 2024!!!!!
 
-# TPSeNCE
-A PyTorch Implementatiion of TPSeNCE, an image rain generation model
+# Description
+A PyTorch Implementation of TPSeNCE, an image rain generation model
+
+# Title
+TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain
 
 # Abstract 
 Rain generation algorithms have the potential to improve the generalization of deraining methods and scene understanding in rainy conditions. However, in practice, they produce artifacts and distortions and struggle to control the amount of rain generated due to a lack of proper constraints. In this paper, we propose an unpaired image-to-image translation framework for generating realistic rainy images. We first introduce a **Triangular Probability Similarity (TPS)** constraint to guide the generated images toward clear and rainy images in the discriminator manifold, thereby minimizing artifacts and distortions during rain generation. Unlike conventional contrastive learning approaches, which indiscriminately push negative samples away from the anchors, we propose a **Semantic Noise Contrastive Estimation (SeNCE)** strategy and reassess the pushing force of negative samples based on the semantic similarity between the clear and the rainy images and the feature similarity between the anchor and the negative samples. Experiments demonstrate  realistic **rain generation** with minimal artifacts and distortions, which benefits **image deraining** and **object detection in rain**. Furthermore, the method can be used to generate realistic **snowy and night** images, underscoring its potential for broader applicability.
@@ -130,11 +133,11 @@ bash test.sh
 If you find this work helpful, please cite
 
 ```
-@inproceedings{zheng2024tpsnce,
+@article{zheng2023tpsence,
   title={TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain},
   author={Zheng, Shen and Lu, Changjie and Narasimhan, Srinivasa G},
-  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
-  year={2024}
+  journal={arXiv preprint arXiv:2311.00660},
+  year={2023}
 }
 ```
 
