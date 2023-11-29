@@ -55,14 +55,14 @@ pip install -r requirements.txt
 
 # Dataset Download
 
-Download BDD100K from [[here](https://www.vis.xyz/bdd100k/)]
+
+Download training and testing images from [[here](https://drive.google.com/drive/folders/1o_M3p8OLURm4wo8pcD0EQclH6feyXlcm?usp=drive_link)]
+
+<!-- Download BDD100K from [[here](https://www.vis.xyz/bdd100k/)]
 
 Download INIT from [[here](https://zhiqiangshen.com/projects/INIT/index.html)]
 
-Download Boreas from [[here](https://www.boreas.utias.utoronto.ca/#/)]
-
-
-TODO: provide dataset split files
+Download Boreas from [[here](https://www.boreas.utias.utoronto.ca/#/)] -->
 
 
 # Dataset Explanations
