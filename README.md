@@ -1,4 +1,6 @@
 # Updates 
+(11/28: Upload checkpoints for night and snowy.)
+
 Arxiv link is available at [[here](https://arxiv.org/abs/2311.00660)]
 
 Paper get accepted by WACV 2024!!!!!
@@ -109,18 +111,20 @@ bash train.sh
 
 
 # Testing with pretrained model
-Download the checkpoints from [[here](https://drive.google.com/file/d/1NPWCHpljJhJcGTadYebyLf0sGbkJm3z4/view?usp=share_link)]
+Download the checkpoints from [[here](https://drive.google.com/drive/folders/1CsQ1yssNl_WULkwkT8_zz6-j4D56Gfv8?usp=drive_link)]
 
 Unzip the checkpoints.
 
-Create folder `bdd100k_1_20`, `INIT`, and `Boreas` under `./checkpoints` like below. 
+Create folder `bdd100k_1_20`, `INIT`, and `boreas_snowy` under `./checkpoints` like below. 
 
 ```
 /TPSeNCE/
     ├── checkpoints
     │   ├── bdd100k_1_20
     │   ├── INIT
-    |   ├── Boreas
+    |   ├── boreas_snowy
+    |   ├── bdd100k_7_19_night_tri_sem
+    |   ├── bdd100k_7_20_snowy_tri_sem
 ```
 
 Run in terminal
