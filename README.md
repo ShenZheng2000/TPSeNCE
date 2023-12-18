@@ -1,4 +1,7 @@
 # Updates 
+
+(12/17: Update deraining instructions)
+
 (11/28: Upload checkpoints for night and snowy.)
 
 Arxiv link is available at [[here](https://arxiv.org/abs/2311.00660)]
@@ -131,6 +134,23 @@ Run in terminal
 ```
 bash test.sh
 ```
+
+# Deraining Experiments 
+
+Choose one of the deraining methods below:
+（1）[EffDerain](https://github.com/tsingqguo/efficientderain)
+（2）[VRGNet](https://github.com/hongwang01/VRGNet)
+（3）[PreNet](https://github.com/csdwren/PReNet)
+（4）[SAPNet](https://github.com/ShenZheng2000/SAPNet-for-image-deraining)
+
+Use TPSeNCE with checkpoint `bdd100k_1_20` for testing (clear -> rainy)
+
+Use deraining methods for training (rainy -> clear)
+
+Extract `Rainy_bad.zip` to obtain `Rainy_bad`
+
+Perform inference on deraining methods for 100 heavy rain images inside  `Rainy_bad`, or any other real rainy images you prefer.
+
 
 # Citation
 
