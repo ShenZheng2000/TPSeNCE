@@ -1,5 +1,7 @@
 # Updates 
 
+(12/20: WACV link is [[here](https://openaccess.thecvf.com/content/WACV2024/html/Zheng_TPSeNCE_Towards_Artifact-Free_Realistic_Rain_Generation_for_Deraining_and_Object_WACV_2024_paper.html)])
+
 (12/17: Update deraining instructions)
 
 (11/28: Upload checkpoints for night and snowy.)
@@ -157,11 +159,13 @@ Perform inference on deraining methods for 100 heavy rain images inside  `Rainy_
 If you find this work helpful, please cite
 
 ```
-@article{zheng2023tpsence,
-  title={TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain},
-  author={Zheng, Shen and Lu, Changjie and Narasimhan, Srinivasa G},
-  journal={arXiv preprint arXiv:2311.00660},
-  year={2023}
+@InProceedings{Zheng_2024_WACV,
+    author    = {Zheng, Shen and Lu, Changjie and Narasimhan, Srinivasa G.},
+    title     = {TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {5394-5403}
 }
 ```
 
