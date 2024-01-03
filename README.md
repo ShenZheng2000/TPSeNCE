@@ -1,16 +1,23 @@
-# (WACV 2024) TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain
+<center>
+
+# [WACV 2024] TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain
+
+</center>
+
+# Links
+[[ArXiv](https://arxiv.org/abs/2311.00660)] 
+[[WACV](https://openaccess.thecvf.com/content/WACV2024/html/Zheng_TPSeNCE_Towards_Artifact-Free_Realistic_Rain_Generation_for_Deraining_and_Object_WACV_2024_paper.html)] 
+[[Slides](https://shenzheng2000.github.io/images/TPSeNCE/TPSeNCE_Slides.pdf)] 
+[[Poster](https://shenzheng2000.github.io/images/TPSeNCE/TPSeNCE_Poster.pdf)] 
+
 
 # Updates 
 
-(12/20: WACV link is [[here](https://openaccess.thecvf.com/content/WACV2024/html/Zheng_TPSeNCE_Towards_Artifact-Free_Realistic_Rain_Generation_for_Deraining_and_Object_WACV_2024_paper.html)])
+(12/20: WACV link is available)
 
 (12/17: Update deraining instructions)
 
 (11/28: Upload checkpoints for night and snowy.)
-
-Arxiv link is available at [[here](https://arxiv.org/abs/2311.00660)]
-
-Paper get accepted by WACV 2024!!!!!
 
 # Abstract 
 Rain generation algorithms have the potential to improve the generalization of deraining methods and scene understanding in rainy conditions. However, in practice, they produce artifacts and distortions and struggle to control the amount of rain generated due to a lack of proper constraints. In this paper, we propose an unpaired image-to-image translation framework for generating realistic rainy images. We first introduce a **Triangular Probability Similarity (TPS)** constraint to guide the generated images toward clear and rainy images in the discriminator manifold, thereby minimizing artifacts and distortions during rain generation. Unlike conventional contrastive learning approaches, which indiscriminately push negative samples away from the anchors, we propose a **Semantic Noise Contrastive Estimation (SeNCE)** strategy and reassess the pushing force of negative samples based on the semantic similarity between the clear and the rainy images and the feature similarity between the anchor and the negative samples. Experiments demonstrate  realistic **rain generation** with minimal artifacts and distortions, which benefits **image deraining** and **object detection in rain**. Furthermore, the method can be used to generate realistic **snowy and night** images, underscoring its potential for broader applicability.
