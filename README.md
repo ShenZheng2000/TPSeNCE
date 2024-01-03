@@ -1,8 +1,4 @@
-<center>
-
-# [WACV 2024] TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain
-
-</center>
+<h1 align="center">[WACV 2024] TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain</h1>
 
 # Links
 [[ArXiv](https://arxiv.org/abs/2311.00660)] 
