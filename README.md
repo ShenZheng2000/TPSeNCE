@@ -8,6 +8,8 @@
     <a href="https://shenzheng2000.github.io/images/TPSeNCE/TPSeNCE_Poster.pdf">Poster</a>
 </p>
 
+# Title
+
 <b>TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain</b>
 <br>_[Shen Zheng](https://shenzheng2000.github.io/), [Changjie Lu](https://louey233.github.io/), [Srinivasa Narasimhan](https://www.cs.cmu.edu/~srinivas/)_<br>
 In WACV 2024
@@ -20,6 +22,12 @@ In WACV 2024
 (12/17: Update deraining instructions)
 
 (11/28: Upload checkpoints for night and snowy.)
+
+# Model Overview
+<p align="center">
+  <img width="100%" src="figures/Titlepage_10_31.png">
+</p>
+
 
 # Image Results
 
