@@ -8,9 +8,9 @@
     <a href="https://shenzheng2000.github.io/images/TPSeNCE/TPSeNCE_Poster.pdf">Poster</a>
 </p>
 
-<p align="center"><b>TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain</b></p>
-<p align="center"><i><a href="https://shenzheng2000.github.io/">Shen Zheng</a>, <a href="https://louey233.github.io/">Changjie Lu</a>, <a href="https://www.cs.cmu.edu/~srinivas/">Srinivasa Narasimhan</a></i></p>
-<p align="center">In WACV 2024</p>
+<b>TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain</b>
+<i><a href="https://shenzheng2000.github.io/">Shen Zheng</a>, <a href="https://louey233.github.io/">Changjie Lu</a>, <a href="https://www.cs.cmu.edu/~srinivas/">Srinivasa Narasimhan</a></i>
+<p>In WACV 2024</p>
 
 
 # Updates 
