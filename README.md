@@ -15,10 +15,7 @@
 
 (11/28: Upload checkpoints for night and snowy.)
 
-<!-- # Abstract 
-Rain generation algorithms have the potential to improve the generalization of deraining methods and scene understanding in rainy conditions. However, in practice, they produce artifacts and distortions and struggle to control the amount of rain generated due to a lack of proper constraints. In this paper, we propose an unpaired image-to-image translation framework for generating realistic rainy images. We first introduce a **Triangular Probability Similarity (TPS)** constraint to guide the generated images toward clear and rainy images in the discriminator manifold, thereby minimizing artifacts and distortions during rain generation. Unlike conventional contrastive learning approaches, which indiscriminately push negative samples away from the anchors, we propose a **Semantic Noise Contrastive Estimation (SeNCE)** strategy and reassess the pushing force of negative samples based on the semantic similarity between the clear and the rainy images and the feature similarity between the anchor and the negative samples. Experiments demonstrate  realistic **rain generation** with minimal artifacts and distortions, which benefits **image deraining** and **object detection in rain**. Furthermore, the method can be used to generate realistic **snowy and night** images, underscoring its potential for broader applicability. -->
-
-# Visual Results (Images)
+# Image Results
 
 
 ## Rain Generation (Clear to Rainy)
@@ -38,7 +35,7 @@ Rain generation algorithms have the potential to improve the generalization of d
   <img width="100%" src="figures/Detect.png">
 </p>
 
-# Visual Results (Video)
+# Video Results
 
 Rain Generation Video [[here](https://www.youtube.com/watch?v=eNS_8fuSLjc)]
 
@@ -61,13 +58,6 @@ pip install -r requirements.txt
 
 
 Download training and testing images from [[here](https://drive.google.com/drive/folders/1o_M3p8OLURm4wo8pcD0EQclH6feyXlcm?usp=drive_link)]
-
-<!-- Download BDD100K from [[here](https://www.vis.xyz/bdd100k/)]
-
-Download INIT from [[here](https://zhiqiangshen.com/projects/INIT/index.html)]
-
-Download Boreas from [[here](https://www.boreas.utias.utoronto.ca/#/)] -->
-
 
 # Dataset Explanations
 Suppose we are translating clear images to rainy images, then we should put images under /path_to_your_dataset/ like this.
@@ -94,7 +84,7 @@ T: sem. seg. maps of B
 ```
 
 
-## NOTE1: 
+## NOTE1: Avoiding Empty Test Folders
 testS and testT is not used for training or testing. However, make sure to include images in the testS and testT folders to prevent them from being empty, as an empty folder cause error during training and testing. 
 
 In convenience, we suggest that you use the following command to avoid empty folder.
@@ -103,7 +93,7 @@ cp -r testA testS
 cp -r testB testT
 ```
 
-## NOTE2: 
+## NOTE2: Obtaining Semantic Segmentation Maps
 As ground truth semantic segmentation maps are not available for BDD100K, we estimate these maps using the [[ConvNeXt-XL](https://github.com/open-mmlab/mmsegmentation/tree/main/configs/convnext)] model from the [[MMSegmentation](https://github.com/open-mmlab/mmsegmentation/)] toolbox. If you are working with a dataset like [[Cityscapes](https://www.cityscapes-dataset.com/)] which already includes ground truth semantic segmentation maps, the semantic guidance can be expected to be more effective.
 
 
@@ -115,11 +105,11 @@ bash train.sh
 
 
 # Testing with pretrained model
-Download the checkpoints from [[here](https://drive.google.com/drive/folders/1CsQ1yssNl_WULkwkT8_zz6-j4D56Gfv8?usp=drive_link)]
+1. Download the checkpoints from [[here](https://drive.google.com/drive/folders/1CsQ1yssNl_WULkwkT8_zz6-j4D56Gfv8?usp=drive_link)]
 
-Unzip the checkpoints.
+2. Unzip the checkpoints.
 
-Create folder `bdd100k_1_20`, `INIT`, and `boreas_snowy` under `./checkpoints` like below. 
+3. Create folder `bdd100k_1_20`, `INIT`, and `boreas_snowy` under `./checkpoints` like below. 
 
 ```
 /TPSeNCE/
@@ -131,26 +121,26 @@ Create folder `bdd100k_1_20`, `INIT`, and `boreas_snowy` under `./checkpoints` l
     |   ├── bdd100k_7_20_snowy_tri_sem
 ```
 
-Run in terminal
+4. Run in terminal
 ```
 bash test.sh
 ```
 
 # Deraining Experiments 
 
-Choose one of the deraining methods below:
+1. Choose one of the deraining methods below:
 （1）[EffDerain](https://github.com/tsingqguo/efficientderain)
 （2）[VRGNet](https://github.com/hongwang01/VRGNet)
 （3）[PreNet](https://github.com/csdwren/PReNet)
 （4）[SAPNet](https://github.com/ShenZheng2000/SAPNet-for-image-deraining)
 
-Use TPSeNCE with checkpoint `bdd100k_1_20` for testing (clear -> rainy)
+2. Use TPSeNCE with checkpoint `bdd100k_1_20` for testing (clear -> rainy)
 
-Use deraining methods for training (rainy -> clear)
+3. Use deraining methods for training (rainy -> clear)
 
-Extract `Rainy_bad.zip` to obtain `Rainy_bad`
+4. Extract `Rainy_bad.zip` to obtain `Rainy_bad`
 
-Perform inference on deraining methods for 100 heavy rain images inside  `Rainy_bad`, or any other real rainy images you prefer.
+5. Perform inference on deraining methods for 100 heavy rain images inside  `Rainy_bad`, or any other real rainy images you prefer.
 
 
 # Citation
@@ -172,6 +162,8 @@ If you find this work helpful, please cite
 # Acknowledgment
 
 This repository is heavily based upon [[MoNCE](https://github.com/fnzhan/MoNCE)] and [[CUT](https://github.com/taesungp/contrastive-unpaired-translation)]. 
+
+This work is supported in part by General Motors.
 
 
 <!-- The specific lines of code are as follows.
