@@ -15,14 +15,8 @@
 
 (11/28: Upload checkpoints for night and snowy.)
 
-# Abstract 
-Rain generation algorithms have the potential to improve the generalization of deraining methods and scene understanding in rainy conditions. However, in practice, they produce artifacts and distortions and struggle to control the amount of rain generated due to a lack of proper constraints. In this paper, we propose an unpaired image-to-image translation framework for generating realistic rainy images. We first introduce a **Triangular Probability Similarity (TPS)** constraint to guide the generated images toward clear and rainy images in the discriminator manifold, thereby minimizing artifacts and distortions during rain generation. Unlike conventional contrastive learning approaches, which indiscriminately push negative samples away from the anchors, we propose a **Semantic Noise Contrastive Estimation (SeNCE)** strategy and reassess the pushing force of negative samples based on the semantic similarity between the clear and the rainy images and the feature similarity between the anchor and the negative samples. Experiments demonstrate  realistic **rain generation** with minimal artifacts and distortions, which benefits **image deraining** and **object detection in rain**. Furthermore, the method can be used to generate realistic **snowy and night** images, underscoring its potential for broader applicability.
-
-# Visual Results (Video)
-
-Rain Generation Video [[here](https://www.youtube.com/watch?v=eNS_8fuSLjc)]
-
-Object Detection Video [[here](https://www.youtube.com/watch?v=RkGmAAORugc)]
+<!-- # Abstract 
+Rain generation algorithms have the potential to improve the generalization of deraining methods and scene understanding in rainy conditions. However, in practice, they produce artifacts and distortions and struggle to control the amount of rain generated due to a lack of proper constraints. In this paper, we propose an unpaired image-to-image translation framework for generating realistic rainy images. We first introduce a **Triangular Probability Similarity (TPS)** constraint to guide the generated images toward clear and rainy images in the discriminator manifold, thereby minimizing artifacts and distortions during rain generation. Unlike conventional contrastive learning approaches, which indiscriminately push negative samples away from the anchors, we propose a **Semantic Noise Contrastive Estimation (SeNCE)** strategy and reassess the pushing force of negative samples based on the semantic similarity between the clear and the rainy images and the feature similarity between the anchor and the negative samples. Experiments demonstrate  realistic **rain generation** with minimal artifacts and distortions, which benefits **image deraining** and **object detection in rain**. Furthermore, the method can be used to generate realistic **snowy and night** images, underscoring its potential for broader applicability. -->
 
 # Visual Results (Images)
 
@@ -43,6 +37,12 @@ Object Detection Video [[here](https://www.youtube.com/watch?v=RkGmAAORugc)]
 <p align="center">
   <img width="100%" src="figures/Detect.png">
 </p>
+
+# Visual Results (Video)
+
+Rain Generation Video [[here](https://www.youtube.com/watch?v=eNS_8fuSLjc)]
+
+Object Detection Video [[here](https://www.youtube.com/watch?v=RkGmAAORugc)]
 
 
 # Getting Started
