@@ -1,10 +1,11 @@
 <h1 align="center">[WACV 2024] TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain</h1>
 
-# Links
-[[ArXiv](https://arxiv.org/abs/2311.00660)] 
-[[WACV](https://openaccess.thecvf.com/content/WACV2024/html/Zheng_TPSeNCE_Towards_Artifact-Free_Realistic_Rain_Generation_for_Deraining_and_Object_WACV_2024_paper.html)] 
-[[Slides](https://shenzheng2000.github.io/images/TPSeNCE/TPSeNCE_Slides.pdf)] 
-[[Poster](https://shenzheng2000.github.io/images/TPSeNCE/TPSeNCE_Poster.pdf)] 
+### [Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Zheng_TPSeNCE_Towards_Artifact-Free_Realistic_Rain_Generation_for_Deraining_and_Object_WACV_2024_paper.pdf) | [ArXiv](https://arxiv.org/abs/2311.00660) | [Supp](https://openaccess.thecvf.com/content/WACV2024/supplemental/Zheng_TPSeNCE_Towards_Artifact-Free_WACV_2024_supplemental.pdf)  | [Slides](https://shenzheng2000.github.io/images/TPSeNCE/TPSeNCE_Slides.pdf) | [Poster](https://shenzheng2000.github.io/images/TPSeNCE/TPSeNCE_Poster.pdf)
+
+
+** TPSeNCE: Towards Artifact-Free Realistic Rain Generation for Deraining and Object Detection in Rain**
+<br>_[Shen Zheng](https://shenzheng2000.github.io/), [Changjie Lu](https://louey233.github.io/), [Srinivasa Narasimhan](https://www.cs.cmu.edu/~srinivas/)_<br>
+In WACV 2024
 
 
 # Updates 
