@@ -15,7 +15,7 @@ run_test() {
         --phase test \
         --preprocess scale_width \
         --load_size $load_size \
-        --num_test $num_test \
+        --num_test $num_test
 }
 
 # now we can call the function with the specific directory name and full name as the parameters
