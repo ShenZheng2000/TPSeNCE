@@ -33,9 +33,11 @@ def save_images(webpage, visuals, image_path, aspect_ratio=1.0, width=256):
 
     for label, im_data in visuals.items():
         im = util.tensor2im(im_data)
-        # NOTE: change to jpg to save space
-        image_name = '%s/%s.jpg' % (label, name)
-        # image_name = '%s/%s.png' % (label, name)
+        
+        # NOTE: automatically decide image surfix (jpg, png, etc). 
+        image_surfix = os.path.splitext(image_path[0])[1].lower()
+        image_name = f'{label}/{name}{image_surfix}'
+
         os.makedirs(os.path.join(image_dir, label), exist_ok=True)
         save_path = os.path.join(image_dir, image_name)
         util.save_image(im, save_path, aspect_ratio=aspect_ratio)
@@ -43,6 +45,7 @@ def save_images(webpage, visuals, image_path, aspect_ratio=1.0, width=256):
         txts.append(label)
         links.append(image_name)
     webpage.add_images(ims, txts, links, width=width)
+
 
 
 class Visualizer():
