@@ -128,11 +128,11 @@ bash train.sh
 ```
 /TPSeNCE/
     ├── checkpoints
-    │   ├── bdd100k_1_20
-    │   ├── INIT
-    |   ├── boreas_snowy
-    |   ├── bdd100k_7_19_night_tri_sem
-    |   ├── bdd100k_7_20_snowy_tri_sem
+    │   ├── bdd100k_1_20                       (clear2rainy)
+    │   ├── INIT                               (clear2rainy)
+    |   ├── boreas_snowy                       (clearsnowy)
+    |   ├── bdd100k_7_19_night_tri_sem         (day2night)
+    |   ├── bdd100k_7_20_snowy_tri_sem         (clearsnowy)
 ```
 
 4. Run in terminal
