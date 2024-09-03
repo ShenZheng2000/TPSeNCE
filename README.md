@@ -132,7 +132,7 @@ bash train.sh
     │   ├── INIT                               (clear2rainy)
     |   ├── boreas_snowy                       (clearsnowy)
     |   ├── bdd100k_7_19_night_tri_sem         (day2night)
-    |   ├── bdd100k_7_20_snowy_tri_sem         (clearsnowy)
+    |   ├── bdd100k_7_20_snowy_tri_sem         (clear2snowy)
 ```
 
 4. Run in terminal
