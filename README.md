@@ -2,10 +2,8 @@
 
 <p align="center">
     <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Zheng_TPSeNCE_Towards_Artifact-Free_Realistic_Rain_Generation_for_Deraining_and_Object_WACV_2024_paper.pdf">Paper</a> |
-    <a href="https://arxiv.org/abs/2311.00660">ArXiv</a> |
     <a href="https://openaccess.thecvf.com/content/WACV2024/supplemental/Zheng_TPSeNCE_Towards_Artifact-Free_WACV_2024_supplemental.pdf">Supp</a> |
-    <a href="https://shenzheng2000.github.io/images/TPSeNCE/TPSeNCE_Slides.pdf">Slides</a> |
-    <a href="https://shenzheng2000.github.io/images/TPSeNCE/TPSeNCE_Poster.pdf">Poster</a>
+    <a href="https://shenzheng2000.github.io/tpsence.github.io/">Webpage</a>
 </p>
 
 # Title
